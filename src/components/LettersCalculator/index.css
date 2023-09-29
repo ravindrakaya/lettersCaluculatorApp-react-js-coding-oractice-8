@@ -1,0 +1,68 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+}
+.image {
+  width: 400px;
+  height: 380px;
+}
+.card-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.card-label {
+  color: #e4e7eb;
+  font-family: 'Roboto';
+}
+.type-input {
+  border: 1px solid #e4e7eb;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+}
+.letter-count-container {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.letter-count {
+  color: #219a6f;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (max-width: 991px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    order: 1;
+  }
+  .card-heading {
+    font-size: 40px;
+  }
+  .card-para {
+    font-size: 18px;
+  }
+}
